@@ -25,9 +25,11 @@ Relocatable machine code gets converted into absolute machine code.
 
 <h4> Lexical Analysis </h4>
 This first phase count the number of lexemes/tokens.
-
+</br>
 **Lexemes** : Lexemes are the character strings assembled from the character stream of a program </br>
 **Tokens** : Token represents what component of the program's grammar they constitute.</br>
 
-
 <p align="center"><img src="https://binaryterms.com/wp-content/uploads/2021/11/Tokens.jpg"</img></p>
+
+<h4>Now Let's see how compiler make the Lexemes and Tokens table by going through the pure HLL</h4>
+<p align="center"><img src="https://github.com/shivamtomar10/compiler-design/lexemes.png"</img></p>
