@@ -26,7 +26,8 @@ Relocatable machine code gets converted into absolute machine code.
 <h4> Lexical Analysis </h4>
 This first phase count the number of lexemes/tokens.
 
-**Lexemes** : </br>
-**Tokens** : </br>
+**Lexemes** : Lexemes are the character strings assembled from the character stream of a program </br>
+**Tokens** : Token represents what component of the program's grammar they constitute.</br>
+
 
 <p align="center"><img src="https://binaryterms.com/wp-content/uploads/2021/11/Tokens.jpg"</img></p>
