@@ -22,3 +22,11 @@ When Assembler get assembly code from compiler so it get converted into relocata
 Relocatable machine code gets converted into absolute machine code.
 
 <h3>Let's discuss how the phases of compiler converting the HLL into the assembly code : that's the main work/task</h3>
+
+<h4> Lexical Analysis </h4>
+This first phase count the number of lexemes/tokens.
+
+**Lexemes** : </br>
+**Tokens** : </br>
+
+<p align="center"><img src="https://binaryterms.com/wp-content/uploads/2021/11/Tokens.jpg"</img></p>
