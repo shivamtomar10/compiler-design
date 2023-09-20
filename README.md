@@ -35,3 +35,20 @@ This first phase count the number of lexemes/tokens.
 <h4>Now Let's see how compiler make the Lexemes and Tokens table by going through the pure HLL.</h4>
 <p>If you consider a code in which one line is "x=a+b*c" then lexemes and tokens are define like the below table.</p>
 <p align="center"><img src="https://github.com/shivamtomar10/compiler-design/blob/master/lexemes.png"</img></p>
+
+When this lexemes and token table get built for the whole source code like for the one line we have shown above, this passes to the synatx analysis phase.
+
+<h4> Syntax Analysis </h4>
+
+In this phase , on the basis of some production rule **PARSE TREE** form and then yielding of this tree accord to *top/bottom* and *left/right* approach.
+
+<p align="center"><img src="https://github.com/shivamtomar10/compiler-design/blob/master/parse.png"</img></p>
+
+If yielding of this tree result out the same of that lexemes and token table then there is no syntax error in the source code .
+
+Now you can see in the above image that yielding of parse tree result out **id=id+id*id** which is similar to the lexemes and token table values as **x=a+b*c**.
+So, this line **x=a+b*c** has no syntax error.
+<p></p>
+
+ <h4 align="center"> PARSER CLASSIFICATION </h4>
+ <p align="center"><img src="https://github.com/shivamtomar10/compiler-design/blob/master/parseclassification.png"</img></p>
